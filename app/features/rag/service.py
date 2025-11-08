@@ -60,7 +60,7 @@ def generate_query_with_context(
 def make_prompt(ctx: str, q: str):
     return f"""
     You are provided with a context coming from an audio transcript.
-    Each "chunk" of the list represent a relevant part for you to use as context.
+    Each "chunk" of the list represents a relevant part for you to use as context.
     In each "chunk", there is a "time" timestamp in seconds corresponding to the "text" that you should use to situate your quotes in time.
 
     CONTEXT:
