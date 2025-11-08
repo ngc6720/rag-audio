@@ -122,7 +122,7 @@ The speaker emphasizes that these achievements are possible when people come tog
 
 ### Prompt 2
 
-(embeddings\*prompt_2.json)
+(embeddings_prompt_2.json)
 
 **prompt:**
 
