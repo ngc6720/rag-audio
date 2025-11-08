@@ -37,27 +37,3 @@ class TranscriberApi(ITranscriber):
         }
         response = requests.post(url, files=files, data=data, headers=headers)
         return Transcript.model_validate(response.json())
-
-
-# Issue: does not give timestamps but it works in javascript sdk and also by using directly the api (sending file as bytes too)
-class TranscriberSdk(ITranscriber):
-    def __init__(self, client: Annotated[Mistral, Depends(get_client_mistral)]):
-        self.client = client
-
-    def get_transcription_from_file(self, file_name, file):
-
-        result = self.client.audio.transcriptions.complete(
-            model="voxtral-mini-latest",
-            timestamp_granularities=[
-                "segment"
-            ],  #  Fails to apply timestamps with file as Dict
-            file={
-                "file_name": file_name,
-                "content": file,
-            },
-            # file=mistral_models.File(file_name=file_name, content=file), # No segments returned using File model either
-            # file_url="", # But segments are returned when using an url instead
-        )
-        print(result)  # Segments list is empty.
-
-        return Transcript.model_validate(result, from_attributes=True)
