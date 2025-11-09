@@ -15,7 +15,7 @@ class Vectors(IVectors):
         points = [
             models.PointStruct(
                 id=idx,
-                vector=response.embedding or [],
+                vector=response.embedding,
                 payload=segment.model_dump(),
             )
             for idx, (response, segment) in enumerate(zip(embeddings.data, segments))
@@ -38,7 +38,7 @@ class Vectors(IVectors):
     def search(self, collection_name, embeddings):
         data = self.client.search(
             collection_name=collection_name,
-            query_vector=embeddings.data[0].embedding or [],
+            query_vector=embeddings.data[0].embedding,
             with_payload=True,
         )
         return SearchResult.model_validate({"chunks": data}, from_attributes=True)
