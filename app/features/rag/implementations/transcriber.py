@@ -1,6 +1,5 @@
 import json
 import requests
-from typing import Annotated
 from ....config import Config
 from ..models import ITranscriber, Transcript
 
@@ -31,6 +30,6 @@ class TranscriberMock(ITranscriber):
         file_name: str,
         file: bytes,
     ):
-        with open(f"{Config().ROOT_PATH}/test_media/transcript.json") as f:
+        with open(f"{Config().ROOT_PATH}/test_media/stew_transcript.json") as f:
             result = json.load(f)["transcription"]
             return Transcript.model_validate(result)

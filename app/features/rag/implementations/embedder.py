@@ -27,12 +27,14 @@ class EmbedderSdk(IEmbedder):
 
 class EmbedderMock(IEmbedder):
     def embed(self, inputs):
-        with open(f"{Config().ROOT_PATH}/test_media/embeddings_ctx.json") as f:
+        with open(
+            f"{Config().ROOT_PATH}/test_media/stew_embeddings_transcript.json"
+        ) as f:
             result = json.load(f)
             return Embeddings.model_validate(result)
 
     def embed_single(self, input):
-        with open(f"{Config().ROOT_PATH}/test_media/embeddings_prompt_1.json") as f:
+        with open(f"{Config().ROOT_PATH}/test_media/stew_embeddings_q1.json") as f:
             result = json.load(f)
             return Embeddings.model_validate(result)
 

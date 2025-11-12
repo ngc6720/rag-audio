@@ -1,0 +1,850 @@
+{
+  "transcription": {
+    "model": "voxtral-mini-latest",
+    "text": " Now I'm going to show you how to cook a lapin \u00e0 la moutarde. It is a farm rabbit with mustard. It is a typical bistro food, you know, this classical with the coq au vin and the steak with french fries. And you can find it all over France in any bistro. Bistro, a lot of people think bistro is French. The way it works is French, but the name bistro is from Russian, Russian origin, when the white Russian came to Paris, they couldn't speak French. So when they used to go somewhere, they would say, Bistro, Bistro, would mean quick, quick, quick. So that's why Bistro is a place where you eat quickly. I'm going to cut the rabbit to start with. So to cut the rabbit, you know, you just imagine you got the hip, you got the leg, you got to separate the two. So you got the line there, that the line I'm going to follow with my knife. When you cut there, all the meat is cut, you take the leg, pull it back, to remove from the socket. And with a knife, you go in between the two bones And that's it. Now I'm going to do the front leg, which is quite easy too, the front leg. The same system, except there is no bone in between. So it's just to take the leg, from this part there at the end, and with the knife, you follow the shape of the leg, like that. And the job is done. Turn the rabbit on the other side. Same system, exactly the same. Follow the shape of the leg. Pull the leg back. You can hear a little crack. So the bones are separated. and the leg is gone. Same system with the front leg again. Lift a little bit. With the blade, with the knife you go, cut it. And it's done. Now we do the body. Here you got the hip bone. Go at the back of the bone. Turn it on the other side. Same system. Back of the hip. And that's out. Like that. The liver is quite easy, just grab the liver, cut it, and it comes out. To do the rest of the body, don't use a knife. Take a chopper because you will ruin your knife. So that's the saddle and that is the front part. Always make a mark when you start to shop, you know? Make a mark, it's easier, you know? You know where to go with the shopper. Samir, you make a mark. And that's it. That's the cat rabbit. So the rabbit is cut, I'm going to season it and brush it with Dijon mustard. You got to use only Dijon mustard. Another thing I said, never use English mustard. If you want to kill somebody, use English mustard. It's terrible. Dijon mustard is always the best. Yeah, talking about mustard, in my restaurant, we never touch an English mustard. And English mustard and chili, all those spicy sauce, never cross the road. Never went through the door, never, never. If you use English mustard, it's a real killer. So I'll take the mustard, put mustard everywhere. And you got to be generous with the mustard. It seems to be a lot, but when he cooks, he's not as strong as you think. So rabbit is really a peasant food, because a rabbit got a very, very active sex life. So it's a cheap meat rabbit, used to be cheap. Because a female rabbit, she produce 10 between 20, 10, 10 and 15 babies at the time, you know, and she never stopped, you know. So it was very cheap food for the farm, for the people working on the land, you know. Now it's a bit different because people don't do rabbit, so you got to buy it from a factory which is completely different. But yes, rabbit was very cheap. With my grandmother, it was rabbit, chicken, duck, guinea fowl, turkey or goose, duck, a lot of duck, of course. Goose was only for Christmas. or a turkey sometime. And the butcher, he was very, very, very rare, the butcher, we never, he was only, if she had a good, she was going to the market to sell her poultry, if she had a good day, she will go to the butcher and buy a steak. But only if she had a good day on the market. So now I'm going to cook the rabbit oil. The oil is hot, but not burning hot, because you remember the mustard can burn, so you got to be gentle. I'm going to add a bit of butter. So now you seal on one side. It should be just gently sealed, you know. You can see it's cooking slowly, you know. There is nothing burning yet. I hope not at all. But yeah. Last piece of meat going is the liver. Liver will cook very fast, so you don't want to have a too dried liver. So I put it on the last minute, you know. Now we'll add onions. three cloves of garlic, or 10 cloves of garlic. It depends if you like the garlic or not. Tomato, any tomato. But I had the cherry tomato, are quite good. So I would, I prefer the cherries than the big one. Tomato, what we put tomato, because they are going to burst, produce a bit of juice. And you make just a very light juice. Bouquet garni. Now I'm going to put a bit of white wine, just to create a little jus to keep the meat moist. That's okay. Next stage, the rabbit will go in the oven, cook for about 30 minutes, and it will be ready. Nothing else to do. You take it like that into your plate. I'm going to put it on the oven, 180 degrees, and let the rabbit cook. Now the rabbit should be ready. 45 minutes in the oven at 180. Yes, that gave me the chance a bit of tidying around the cooker to keep everything clean. Beautiful smell. It seems to be perfect. Nice sauce around. Nice coating of the sauce, perfect. That's it. Lapin \u00e0 la moutarde, like in a real bistro. Very tasty. Bon app\u00e9tit.",
+    "language": null,
+    "segments": [
+      {
+        "text": " Now I'm going to show you how to cook a lapin \u00e0 la moutarde.",
+        "start": 0.0,
+        "end": 4.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It is a farm rabbit with mustard.",
+        "start": 4.5,
+        "end": 7.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It is a typical bistro food, you know,",
+        "start": 7.7,
+        "end": 10.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " this classical with the coq au vin and the steak with french fries.",
+        "start": 10.0,
+        "end": 14.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And you can find it all over France in any bistro.",
+        "start": 14.7,
+        "end": 19.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Bistro, a lot of people think bistro is French.",
+        "start": 19.7,
+        "end": 23.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " The way it works is French, but the name bistro is from Russian,",
+        "start": 23.2,
+        "end": 28.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Russian origin, when the white Russian came to Paris,",
+        "start": 28.0,
+        "end": 31.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " they couldn't speak French.",
+        "start": 31.5,
+        "end": 32.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So when they used to go somewhere, they would say,",
+        "start": 32.6,
+        "end": 35.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Bistro, Bistro, would mean quick, quick, quick.",
+        "start": 35.4,
+        "end": 39.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So that's why Bistro is a place where you eat quickly.",
+        "start": 39.2,
+        "end": 42.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " I'm going to cut the rabbit to start with.",
+        "start": 42.7,
+        "end": 46.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So to cut the rabbit, you know, you just imagine you got the hip,",
+        "start": 46.0,
+        "end": 50.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " you got the leg, you got to separate the two.",
+        "start": 50.7,
+        "end": 54.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So you got the line there, that the line I'm going to follow with my knife.",
+        "start": 54.3,
+        "end": 60.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " When you cut there, all the meat is cut,",
+        "start": 63.5,
+        "end": 67.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " you take the leg, pull it back,",
+        "start": 67.8,
+        "end": 70.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " to remove from the socket.",
+        "start": 72.0,
+        "end": 74.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And with a knife, you go in between the two bones",
+        "start": 74.8,
+        "end": 79.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And that's it.",
+        "start": 80.7,
+        "end": 82.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Now I'm going to do the front leg,",
+        "start": 82.2,
+        "end": 86.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " which is quite easy too, the front leg.",
+        "start": 86.0,
+        "end": 88.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " The same system, except there is no bone in between.",
+        "start": 88.8,
+        "end": 91.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So it's just to take the leg,",
+        "start": 91.9,
+        "end": 94.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " from this part there at the end,",
+        "start": 96.9,
+        "end": 99.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " and with the knife, you follow the shape of the leg,",
+        "start": 99.1,
+        "end": 102.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " like that.",
+        "start": 102.8,
+        "end": 103.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And the job is done.",
+        "start": 108.5,
+        "end": 111.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Turn the rabbit on the other side.",
+        "start": 111.7,
+        "end": 114.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Same system, exactly the same.",
+        "start": 114.4,
+        "end": 116.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Follow the shape of the leg.",
+        "start": 116.7,
+        "end": 118.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Pull the leg back.",
+        "start": 121.7,
+        "end": 123.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " You can hear a little crack.",
+        "start": 123.3,
+        "end": 125.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So the bones are separated.",
+        "start": 125.9,
+        "end": 128.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " and the leg is gone.",
+        "start": 134.2,
+        "end": 135.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Same system with the front leg again.",
+        "start": 135.9,
+        "end": 138.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Lift a little bit.",
+        "start": 139.3,
+        "end": 141.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " With the blade, with the knife you go, cut it.",
+        "start": 141.3,
+        "end": 144.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And it's done.",
+        "start": 148.6,
+        "end": 151.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Now we do the body.",
+        "start": 153.1,
+        "end": 155.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Here you got the hip bone.",
+        "start": 155.2,
+        "end": 157.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Go at the back of the bone.",
+        "start": 158.0,
+        "end": 159.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Turn it on the other side.",
+        "start": 160.9,
+        "end": 162.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Same system.",
+        "start": 162.6,
+        "end": 163.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Back of the hip.",
+        "start": 164.9,
+        "end": 166.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And that's out.",
+        "start": 169.8,
+        "end": 172.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Like that.",
+        "start": 174.0,
+        "end": 177.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " The liver is quite easy, just grab the liver, cut it, and it comes out.",
+        "start": 177.1,
+        "end": 183.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " To do the rest of the body, don't use a knife.",
+        "start": 186.2,
+        "end": 189.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Take a chopper because you will ruin your knife.",
+        "start": 189.4,
+        "end": 193.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So that's the saddle and that is the front part.",
+        "start": 201.9,
+        "end": 205.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Always make a mark when you start to shop, you know?",
+        "start": 210.6,
+        "end": 213.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Make a mark, it's easier, you know?",
+        "start": 213.4,
+        "end": 215.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " You know where to go with the shopper.",
+        "start": 217.6,
+        "end": 220.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Samir, you make a mark.",
+        "start": 223.4,
+        "end": 226.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And that's it.",
+        "start": 231.8,
+        "end": 233.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " That's the cat rabbit.",
+        "start": 233.2,
+        "end": 234.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So the rabbit is cut, I'm going to season it",
+        "start": 236.3,
+        "end": 240.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " and brush it with Dijon mustard.",
+        "start": 240.7,
+        "end": 243.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " You got to use only Dijon mustard.",
+        "start": 244.8,
+        "end": 246.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Another thing I said, never use English mustard.",
+        "start": 246.6,
+        "end": 249.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " If you want to kill somebody, use English mustard.",
+        "start": 249.8,
+        "end": 252.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It's terrible.",
+        "start": 252.7,
+        "end": 254.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Dijon mustard is always the best.",
+        "start": 254.3,
+        "end": 256.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Yeah, talking about mustard, in my restaurant,",
+        "start": 262.5,
+        "end": 265.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " we never touch an English mustard.",
+        "start": 265.8,
+        "end": 267.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And English mustard and chili,",
+        "start": 267.9,
+        "end": 272.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " all those spicy sauce, never cross the road.",
+        "start": 272.1,
+        "end": 275.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Never went through the door, never, never.",
+        "start": 275.4,
+        "end": 278.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " If you use English mustard, it's a real killer.",
+        "start": 280.6,
+        "end": 284.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So I'll take the mustard, put mustard everywhere.",
+        "start": 306.8,
+        "end": 310.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And you got to be generous with the mustard.",
+        "start": 312.8,
+        "end": 314.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It seems to be a lot, but when he cooks,",
+        "start": 314.8,
+        "end": 317.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " he's not as strong as you think.",
+        "start": 317.9,
+        "end": 320.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So rabbit is really a peasant food,",
+        "start": 320.9,
+        "end": 325.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " because a rabbit got a very, very active sex life.",
+        "start": 325.3,
+        "end": 330.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So it's a cheap meat rabbit, used to be cheap.",
+        "start": 330.2,
+        "end": 332.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Because a female rabbit, she produce",
+        "start": 332.6,
+        "end": 335.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " 10 between 20, 10, 10 and 15 babies at the time, you know, and she never stopped, you know.",
+        "start": 335.7,
+        "end": 340.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So it was very cheap food for the farm, for the people working on the land, you know.",
+        "start": 340.7,
+        "end": 347.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Now it's a bit different because people don't do rabbit, so you got to buy it from a factory which is completely different.",
+        "start": 348.7,
+        "end": 357.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " But yes, rabbit was very cheap.",
+        "start": 357.0,
+        "end": 361.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " With my grandmother, it was rabbit, chicken, duck, guinea fowl,",
+        "start": 361.0,
+        "end": 367.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " turkey or goose, duck, a lot of duck, of course.",
+        "start": 369.0,
+        "end": 372.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Goose was only for Christmas.",
+        "start": 372.0,
+        "end": 374.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " or a turkey sometime.",
+        "start": 374.3,
+        "end": 376.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And the butcher, he was very, very, very rare,",
+        "start": 376.3,
+        "end": 380.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " the butcher, we never, he was only,",
+        "start": 380.3,
+        "end": 383.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " if she had a good, she was going to the market",
+        "start": 383.3,
+        "end": 385.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " to sell her poultry, if she had a good day,",
+        "start": 385.3,
+        "end": 389.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " she will go to the butcher and buy a steak.",
+        "start": 389.3,
+        "end": 392.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " But only if she had a good day on the market.",
+        "start": 392.3,
+        "end": 397.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So now I'm going to cook the rabbit oil.",
+        "start": 402.0,
+        "end": 405.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " The oil is hot, but not burning hot,",
+        "start": 405.4,
+        "end": 407.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " because you remember the mustard can burn,",
+        "start": 407.1,
+        "end": 411.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " so you got to be gentle.",
+        "start": 411.3,
+        "end": 413.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " I'm going to add a bit of butter.",
+        "start": 425.5,
+        "end": 428.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So now you seal on one side.",
+        "start": 443.1,
+        "end": 446.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It should be just gently sealed, you know.",
+        "start": 447.8,
+        "end": 450.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " You can see it's cooking slowly, you know.",
+        "start": 450.8,
+        "end": 453.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " There is nothing burning yet.",
+        "start": 453.0,
+        "end": 455.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " I hope not at all.",
+        "start": 455.5,
+        "end": 457.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " But yeah.",
+        "start": 457.2,
+        "end": 458.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Last piece of meat going is the liver.",
+        "start": 458.3,
+        "end": 460.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Liver will cook very fast,",
+        "start": 460.7,
+        "end": 462.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " so you don't want to have a too dried liver.",
+        "start": 462.1,
+        "end": 464.8,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So I put it on the last minute, you know.",
+        "start": 464.8,
+        "end": 467.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Now we'll add onions.",
+        "start": 467.5,
+        "end": 469.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " three cloves of garlic, or 10 cloves of garlic.",
+        "start": 475.6,
+        "end": 479.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It depends if you like the garlic or not.",
+        "start": 479.7,
+        "end": 482.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Tomato, any tomato.",
+        "start": 483.5,
+        "end": 486.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " But I had the cherry tomato, are quite good.",
+        "start": 486.1,
+        "end": 488.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " So I would, I prefer the cherries than the big one.",
+        "start": 488.7,
+        "end": 491.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Tomato, what we put tomato, because they are going to burst,",
+        "start": 491.5,
+        "end": 495.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " produce a bit of juice.",
+        "start": 495.4,
+        "end": 498.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " And you make just a very light juice.",
+        "start": 498.5,
+        "end": 501.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Bouquet garni.",
+        "start": 501.3,
+        "end": 502.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Now I'm going to put a bit of white wine,",
+        "start": 514.9,
+        "end": 517.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " just to create a little jus to keep the meat moist.",
+        "start": 518.5,
+        "end": 522.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " That's okay.",
+        "start": 524.4,
+        "end": 525.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Next stage, the rabbit will go in the oven,",
+        "start": 527.3,
+        "end": 531.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " cook for about 30 minutes, and it will be ready.",
+        "start": 531.1,
+        "end": 534.5,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Nothing else to do.",
+        "start": 534.5,
+        "end": 535.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " You take it like that into your plate.",
+        "start": 535.4,
+        "end": 538.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " I'm going to put it on the oven, 180 degrees,",
+        "start": 543.2,
+        "end": 545.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " and let the rabbit cook.",
+        "start": 545.9,
+        "end": 547.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Now the rabbit should be ready.",
+        "start": 553.4,
+        "end": 555.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " 45 minutes in the oven at 180.",
+        "start": 555.1,
+        "end": 558.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Yes, that gave me the chance a bit",
+        "start": 558.9,
+        "end": 560.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " of tidying around the cooker",
+        "start": 560.9,
+        "end": 565.0,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " to keep everything clean.",
+        "start": 565.0,
+        "end": 567.4,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Beautiful smell.",
+        "start": 567.4,
+        "end": 568.6,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " It seems to be perfect.",
+        "start": 570.2,
+        "end": 573.3,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Nice sauce around.",
+        "start": 573.7,
+        "end": 575.1,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Nice coating of the sauce, perfect.",
+        "start": 576.3,
+        "end": 579.7,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " That's it.",
+        "start": 608.9,
+        "end": 609.9,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Lapin \u00e0 la moutarde, like in a real bistro.",
+        "start": 609.9,
+        "end": 613.2,
+        "type": "transcription_segment"
+      },
+      {
+        "text": " Very tasty. Bon app\u00e9tit.",
+        "start": 614.7,
+        "end": 616.5,
+        "type": "transcription_segment"
+      }
+    ],
+    "usage": {
+      "prompt_audio_seconds": 624,
+      "prompt_tokens": 4,
+      "total_tokens": 11659,
+      "completion_tokens": 3780
+    },
+    "finish_reason": null
+  }
+}

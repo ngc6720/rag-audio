@@ -20,6 +20,6 @@ class Chat(IChat):
 
 class ChatMock(IChat):
     def complete(self, prompt):
-        with open(f"{Config().ROOT_PATH}/test_media/answer_1.json") as f:
+        with open(f"{Config().ROOT_PATH}/test_media/stew_answer1.json") as f:
             result = json.load(f)
             return result["answer"]

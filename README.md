@@ -9,7 +9,7 @@ git clone https://github.com/ngc6720/rag-audio.git
 cd rag-audio
 ```
 
-This app uses Mistral AI, you will need an API key to use it. To create a key, connect to your Mistral account, got to [Mistral's settings - API Keys](https://admin.mistral.ai/organization/api-keys) and click on "Create new key". It is recommended to select an expiration date for the key.
+The project uses Mistral AI, you will need an API key to start the app. To create a key, connect to your Mistral account, got to [Mistral's settings - API Keys](https://admin.mistral.ai/organization/api-keys) and click on "Create new key". It is recommended to select an expiration date for the key.
 
 Create a folder named "secrets" at the root of the project and, inside, create a "mistral_api_key.txt" file that contains your Mistral public API key.
 This command does it all in one go (replace YOUR_API_KEY with your Mistral key):
@@ -20,18 +20,24 @@ mkdir -p secrets && echo YOUR_API_KEY > secrets/mistral_api_key.txt
 
 ### A) With docker
 
-The simplest way, if you have Docker installed (requires Docker Compose v2.23.1 or above):
+The recommended way, if you have Docker installed (requires Docker Compose v2.23.1 or above):
 
 ```sh
 docker compose up -d
 ```
 
-You can visit http://localhost:6333/dashboard to visualize vectors.
+You can visit
+
+- http://localhost:8000/docs to visualize and try the API.
+- http://localhost:6333/dashboard to visualize vectors.
 
 ### B) With a virtual environment
 
-/!\ Only for the FastAPI app : Docker would still be needed for any other containerized service, i.e Qdrant for the vectors database.
-In that case it will use an in-memory version of the database instead, and it will not be persistant.
+/!\ Only for the Python/FastAPI app : Docker would still be needed for any other containerized service, i.e Qdrant for the database.
+
+When using venv, the python app will use an in-memory version of the vector database instead, and it will not be persistant.
+
+Skip these steps if you are already using Docker :
 
 #### Create virtual environment
 
@@ -61,80 +67,55 @@ fastapi run app/main.py --host 0.0.0.0 --port 80
 
 ## Usage
 
-### Swagger UI
+### With Swagger UI
 
-With your browser, visit http://localhost:8000/docs to visualise and try endpoints.
+With your browser, visit http://localhost:8000/docs for a convenient way to try endpoints.
 
-Step 1: provide an audio file with a name (create context from audio).
-Step 2: provide a prompt and the name of the context to link to your question (ask in context).
+Steps:
 
-You can use the Swagger UI /docs dashboard to do these steps.
+1. Create context from audio : provide an audio file and a name for the context.
+2. Ask in context : provide a query and the name of the context to link your question to.
 
-### Examples with cURL
+### With cURL
 
-Here are examples with cURL commands instead, with the Obama speech from Mistral docs examples:
+Here are examples with cURL commands instead, using the audio from ./test_media:
 
 #### Create context from audio
 
 ```sh
-curl -X POST -F "file=@test_media/obama.mp3" http://localhost:8000/rag/upload?&name=rag_ctx_collection
+curl -X POST -F "file=@test_media/stew.mp3" http://localhost:8000/rag/upload?&name=stew
 ```
 
 #### Ask in context
 
-prompt: Should we be hopeful?
+prompt: What are some secrets for this recipe?
 
 ```sh
-curl http://localhost:8000/rag/search?&q=Should%20we%20be%20hopeful%3F&name=rag_ctx_collection
+curl http://localhost:8000/rag/search?&q=What%20are%20some%20secrets%20for%20this%20recipe%3F&name=stew
 ```
-
-prompt: Is the topic of democracy discussed?
-
-```sh
-curl http://localhost:8000/rag/search?&q=Is%20the%20topic%20of%20democracy%20discussed%3F&name=rag_ctx_collection
-```
-
-Note: the query parameter "name" is used to identify the context when calling the vector database.
 
 ## Results
 
-With ./test_media/obama.mp3, from Mistral Audio & Transcription docs examples, using the above commands:
+With ./test_media/stew.mp3, which is the audio from a rabbit stew recipe video.
 
-### Prompt 1
+#### Q: What are some secrets for this recipe?
 
-(embeddings_prompt_1.json)
+**Answer:**
 
-**prompt:**
+```
+"Here are some secrets for the recipe mentioned in the context:
 
-_Should we be hopeful?_
+1. **Mustard Usage**: The recipe emphasizes the use of Dijon mustard, stating that English mustard should be avoided. It is recommended to be generous with the mustard, brushing it everywhere on the rabbit. <quote>So I'll take the mustard, put mustard everywhere.</quote> <timestamp>306.8</timestamp> and <quote>And you got to be generous with the mustard.</quote> <timestamp>312.8</timestamp>.
 
-**answer:**
+2. **Cooking Time and Temperature**: The rabbit should be cooked in the oven at 180 degrees for about 30 to 45 minutes. <quote>cook for about 30 minutes, and it will be ready.</quote> <timestamp>531.1</timestamp> and <quote>45 minutes in the oven at 180.</quote> <timestamp>555.1</timestamp>.
 
-Based on the provided context, the answer to "Should we be hopeful?" is a resounding **yes**. The speaker expresses optimism and highlights numerous reasons for hope, including:
+3. **Liver Handling**: The liver is added last to prevent it from drying out. <quote>Last piece of meat going is the liver.</quote> <timestamp>458.3</timestamp> and <quote>So I put it on the last minute, you know.</quote> <timestamp>464.8</timestamp>.
 
-- The resilience and hope of the American people (39.6s).
-- The progress seen in communities like Joplin rebuilding after disaster and Boston's response to terrorism (57.1s).
-- Scientific advancements, such as helping a paralyzed man regain his sense of touch and wounded warriors walk again (78.5s).
-- The inspiration drawn from young graduates, military officers, and even children reminding us of our obligations to care for others (66.5s, 100.1s).
-- The collective effort in self-government, which, though challenging, leads to positive change (111.6s).
+4. **White Wine for Moisture**: A bit of white wine is added to create a light jus to keep the meat moist. <quote>Now I'm going to put a bit of white wine, just to create a little jus to keep the meat moist.</quote> <timestamp>514.9</timestamp>.
 
-The speaker emphasizes that these achievements are possible when people come together, suggesting that hope is justified when we work toward shared goals.
+5. **Garlic and Tomato**: The recipe suggests using garlic and tomatoes, with a preference for cherry tomatoes. <quote>three cloves of garlic, or 10 cloves of garlic.</quote> <timestamp>475.6</timestamp> and <quote>But I had the cherry tomato, are quite good.</quote> <timestamp>486.1</timestamp>.
 
-### Prompt 2
+6. **Gentle Cooking**: The cooking process should be gentle to avoid burning. <quote>so you got to be gentle.</quote> <timestamp>411.3</timestamp> and <quote>It should be just gently sealed, you know.</quote> <timestamp>447.8</timestamp>.
 
-(embeddings_prompt_2.json)
-
-**prompt:**
-
-_Is the topic of democracy discussed?_
-
-**answer:**
-
-Yes, the topic of democracy is discussed in the provided context. Several chunks explicitly mention democracy, such as:
-
-- "It falls on each of us to be guardians of our democracy." (time: 165.2)
-- "But we can't take our democracy for granted." (time: 120.3)
-- "That's what's possible when we come together in the slow, hard, sometimes frustrating, but always vital work of self-government." (time: 111.6)
-- "Our success depends on our participation, regardless of which way the pendulum of power swings." (time: 156.9)
-
-These quotes highlight the importance of active citizenship and collective effort in sustaining democracy.
+These details highlight the key techniques and ingredients used in the recipe."
+```
