@@ -11,7 +11,6 @@ from .models import (
     TranscriptSearchResponse,
     ScoredChunks,
 )
-from .implementations.embedder import write_to_json_file
 
 
 def create_context_from_audio_file(
