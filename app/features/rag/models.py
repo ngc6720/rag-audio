@@ -4,7 +4,7 @@ Interfaces and data models for the feature.
 
 from pydantic import BaseModel
 from abc import ABC, abstractmethod
-from typing import List
+from typing import List, Optional
 from typing_extensions import TypedDict
 
 # Models
@@ -27,12 +27,13 @@ class Embeddings(BaseModel):
     data: List[EmbeddingsItem] = []
 
 
-class SearchResult(BaseModel):
-    class ScoredChunk(BaseModel):
-        score: float
+class ScoredChunks(BaseModel):
+    class Chunk(BaseModel):
+        id: int
+        score: Optional[float] = None
         payload: Transcript.Chunk
 
-    chunks: List[ScoredChunk] = []
+    chunks: List[Chunk] = []
 
 
 # Interfaces (implemented in ./implementations)
@@ -66,7 +67,11 @@ class IVectors(ABC):
         raise NotImplementedError
 
     @abstractmethod
-    def search(self, collection_name: str, embeddings: Embeddings) -> SearchResult:
+    def search(self, collection_name: str, embeddings: Embeddings) -> ScoredChunks:
+        raise NotImplementedError
+
+    @abstractmethod
+    def getPoints(self, collection_name: str, ids: List[int]) -> ScoredChunks:
         raise NotImplementedError
 
 

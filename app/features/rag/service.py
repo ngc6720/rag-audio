@@ -9,7 +9,9 @@ from .models import (
     IChat,
     TranscriptUploadResponse,
     TranscriptSearchResponse,
+    ScoredChunks,
 )
+from .implementations.embedder import write_to_json_file
 
 
 def create_context_from_audio_file(
@@ -46,12 +48,31 @@ def generate_query_with_context(
     chat: IChat,
 ) -> TranscriptSearchResponse:
     embeddings_prompt = embedder.embed_single(q)
-    result = vectors.search(name, embeddings_prompt)
-    # Format retrieval to prompt, could be tweaked too
+    scored = vectors.search(name, embeddings_prompt)
+    # Add adjacent segments to give more context
+    padded = ScoredChunks()
+    for c in scored.chunks:
+        batch = vectors.getPoints(
+            name,
+            [
+                c.id - 4,
+                c.id - 3,
+                c.id - 2,
+                c.id - 1,
+                c.id,
+                c.id + 1,
+                c.id + 2,
+                c.id + 3,
+                c.id + 4,
+            ],
+        )
+        for chunk in batch.chunks:
+            padded.chunks.append(chunk)
+    # Format retrieval to object for prompt
     formated_ctx = {
         "chunks": [
             {"text": chunk.payload.text, "time": chunk.payload.start}
-            for chunk in result.chunks
+            for chunk in padded.chunks
         ]
     }
     prompt = make_prompt(ctx=str(formated_ctx), q=q)

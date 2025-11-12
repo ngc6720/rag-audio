@@ -2,7 +2,7 @@ from typing import Annotated
 from fastapi import Depends
 from qdrant_client import QdrantClient, models
 from ..infra import get_client_qdrant_memory
-from ..models import IVectors, SearchResult
+from ..models import IVectors, ScoredChunks
 
 
 class Vectors(IVectors):
@@ -41,4 +41,10 @@ class Vectors(IVectors):
             query_vector=embeddings.data[0].embedding,
             with_payload=True,
         )
-        return SearchResult.model_validate({"chunks": data}, from_attributes=True)
+        return ScoredChunks.model_validate({"chunks": data}, from_attributes=True)
+
+    def getPoints(self, collection_name, ids):
+        data = self.client.retrieve(
+            collection_name=collection_name, ids=ids, with_payload=True
+        )
+        return ScoredChunks.model_validate({"chunks": data}, from_attributes=True)
