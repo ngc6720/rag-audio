@@ -1,8 +1,10 @@
 # RAG-audio
 
-This project is using FastAPI, Mistral AI and Qdrant to provide an API for simple RAG from audio. It allows to post an audio file (that contains speech) and interact with its content via natural language. It is a project made to document learning and experimenting with the tools.
+This project is using FastAPI, Mistral AI and Qdrant to provide an API for simple [RAG](https://en.wikipedia.org/wiki/Retrieval-augmented_generation) from audio. It allows to post an audio file (that contains speech) and interact with its content via natural language. It is a project made to document learning and experimenting with the tools.
 
 ## Installation
+
+Clone the project:
 
 ```sh
 git clone https://github.com/ngc6720/rag-audio.git
